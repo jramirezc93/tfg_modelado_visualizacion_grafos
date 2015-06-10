@@ -1,0 +1,102 @@
+
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+#graph {
+    position: absolute;
+    margin-top: 115px;
+    height: 100%;
+    width: 100%;
+}
+#graph2 {
+    position: absolute;
+    left:800px;
+    height: 100%;
+    width: 100%;
+}
+#graph3 {
+    position: absolute;
+    left:800px;
+    height: 100%;
+    width: 100%;
+}
+#graph4 {
+    position: absolute;
+    margin-top: -65px;
+    left:930px;
+    height: 100%;
+    width: 100%;
+}
+#graph5 {
+    position: absolute;
+    margin-top: -35px;
+    left:940px;
+    height: 100%;
+    width: 100%;
+}
+#graph6 {
+    position: absolute;
+     margin-top: 55px;
+    left:940px;
+    height: 100%;
+    width: 100%;
+}
+#div_results{
+	height: 500px ;
+    overflow: scroll;
+}
+#div_priorities{
+	height: 290px ;
+    overflow: scroll;
+}
+#div_changes{
+	height: 250px ;
+    overflow: scroll;
+}
+#div_companies{
+	height: 250px ;
+    overflow: scroll;
+}
+#div_users{
+    height: 250px ;
+    overflow: scroll;
+}
+#div_inicial{
+	height: 120px ;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+#div_ids_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+#div_companies_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+#div_states_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+#div_priorities_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+#div_users_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+#div_changes_rfc{
+    height: 120px ;
+     overflow: scroll;
+}
+td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+.selected {
+    color:#3182BD;
+}
+.ok{
+	margin-left: 680px;
+}
